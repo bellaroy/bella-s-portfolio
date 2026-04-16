@@ -1,0 +1,103 @@
+/*Portfolio CSS File */
+
+body { background-color: #fce4ee; }
+
+/*Styling for headings and text */
+h1, h2, h3 {font-family: Georgia, serif; 
+	    color: #ed4788; }
+h2 {padding-left: 620px; }
+
+
+
+/*This is my side navigation bar */
+.sidenav {display: block;
+	  height: 100%;
+	  width: 200px;
+	  position: fixed;
+	  top: 0;
+	  right: 0;
+	  background-color: #f9bfd6;
+	  padding-top: 50px; 
+	  font-size: 25px;
+	  line-height: 2;
+	  color: #ed4788; 
+	  font-family: Georgia, serif; }
+
+.sidenav a:link {color: #ed4788; }
+.sidenav a:visited {color: #e9206f; }
+.sidenav a:hover, a:focus, a:active {color: #bc1255;
+				     border-bottom-color: blue; }
+
+
+/*This is for the copyright portion of the footer */
+.copyrightfooter {position: fixed;
+		  top: 0;
+		  right: 24px;
+		  font-size: 12px;
+		  line-height: 2;
+		  color: #ed4788; 
+		  font-family: Georgia, serif; }
+.copyrightfooter a:link {color: #ed4788; }
+.copyrightfooter a:visited {color: #e9206f; }
+.copyrightfooter a:hover, a:focus, a:active {color: #bc1255; }
+
+/*this is the "contact Bella!" styling*/
+.contactme {font-size: 16px; 
+		    color: #e9206f; 
+		    line-height: 1.5; 
+		    font-family: Georgia, serif;
+		    padding-left: 40px; 
+		    max-width: 100%; }
+
+/*this is me trying to figure out the gallery */
+.img {display: block;
+      margin: auto;
+      width: 50%; }
+
+/*this styles the first paragraph of my about page, and the image*/
+.aboutbodyandimage {display: flex;
+		    font-size: 25px; 
+		    color: #ed4788; 
+		    line-height: 1.5; 
+		    font-family: Georgia, serif;
+		    padding-left: 40px; }
+
+/*this styles the rest of the about page */
+.aboutbody {font-size: 18px; 
+		    color: #ed4788; 
+		    line-height: 1.5; 
+		    font-family: Georgia, serif;
+		    padding-left: 40px; 
+		    max-width: 100%; }
+.aboutbody a:link {color: #ed4788; }
+.aboutbody a:visited {color: #e9206f; }
+.aboutbody a:hover, a:focus, a:active {color: #bc1255; }
+
+
+/*trying to style the horizontal line*/
+.line1 {color: #ed4788; }
+
+
+/*this is styling for gallery images*/
+* {
+  box-sizing: border-box;}
+
+.column { float: left;
+  width: 33.33%;
+  padding-right: 200px;
+  padding-bottom: 40px; }
+
+.column2 {width: 33.33%; 
+float: right;
+padding-right: 200px; 
+padding-top: 40px; }
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;}
+
+
+
+
